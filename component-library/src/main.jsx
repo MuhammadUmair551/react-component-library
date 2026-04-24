@@ -1,12 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
-import InputField from './components/InputField.jsx'
-import Badge from './components/Badges & Tags/Badge.jsx'
+import Avatar from './components/Avatar/Avatar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Badge />
+    <Avatar />
   </StrictMode>,
 )
