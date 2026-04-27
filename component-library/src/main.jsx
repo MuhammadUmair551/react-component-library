@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Avatar from './components/Avatar/Avatar.jsx'
+import Alert from './components/Alert & Toast/Alert.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Avatar />
+    <Alert />
   </StrictMode>,
 )
