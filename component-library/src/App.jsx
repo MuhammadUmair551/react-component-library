@@ -1,10 +1,10 @@
 import React from 'react'
-import Sidebar from './components/Phase2/Sidebar/Sidebar'
+import Footer from './components/Phase2/Footer/Footer'
 
 function App() {
   return (
     <div>
-      <Sidebar />
+      <Footer />
     </div>
   )
 }
